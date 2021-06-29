@@ -21,6 +21,10 @@
   Crafting a targeted universal adversarial perturbation against the alpha model of an algorithmic trading system.
 </p>
 
+<p align="center">
+  <img width=80% src="https://github.com/nehemya/Algo-Trade-Adversarial-Examples/blob/main/git_logo.jpeg">
+</p>
+
 ## About the Project
 This repository contains the code for the ECML PKDD 2021 manuscript [Taking Over the Stock Market: Adversarial Perturbations Against Algorithmic Traders](https://arxiv.org/abs/2010.09246). Our study presents a realistic scenario in which an attacker influences algorithmic trading systems using adversarial learning techniques to manipulate the input data stream in real-time.
 The attacker creates a targeted universal adversarial perturbation (TUAP) that is agnostic to the target model and time of use, which remains imperceptible when added to the input stream.
@@ -36,4 +40,7 @@ Our code reads and processes the data from the [S&P 500 Intraday](https://www.ka
   year={2020}
 }
 ```
+
+## Acknowledgments
+The logo was created using [Lorenzo's image from Pexels](https://www.pexels.com/photo/turned-on-monitor-displaying-frequency-graph-241544/).
 
