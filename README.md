@@ -18,8 +18,14 @@
 </h3>
 
 <p align="center">
-  The code for the paper "Taking Over the Stock Market: Adversarial Perturbations Against Algorithmic Traders"
+  Crafting a targeted universal adversarial perturbation against the alpha model of an algorithmic trading system.
 </p>
+
+## About the Project
+This repository contains the code for the ECML PKDD 2021 manuscript [Taking Over the Stock Market: Adversarial Perturbations Against Algorithmic Traders](https://arxiv.org/abs/2010.09246). Our study presents a realistic scenario in which an attacker influences algorithmic trading systems using adversarial learning techniques to manipulate the input data stream in real-time.
+The attacker creates a targeted universal adversarial perturbation (TUAP) that is agnostic to the target model and time of use, which remains imperceptible when added to the input stream.
+
+Our code reads and processes the data from the [S&P 500 Intraday](https://www.kaggle.com/nickdl/snp-500-intraday-data) dataset and divides it into a set for training the alpha models, a set for crafting TUAPs, and six test sets to evaluate the attack. The training set is used to train three alpha models. Then, we use the TUAP set to craft a universal adversarial perturbation that can fool the target alpha models and evaluate the perturbations' performance.  Finally, we also explore various mitigation methods. Additional information is available in the paper. 
 
 ## Citation
 ```
